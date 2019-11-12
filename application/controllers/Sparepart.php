@@ -54,7 +54,7 @@
             // }
             $validation->set_rules($rule);
 
-            if (!$validation->run()) {`
+            if (!$validation->run()) {
             return $this->returnData($this->form_validation->error_array(), true);
             }
                 $sparepart = new SparepartData();
